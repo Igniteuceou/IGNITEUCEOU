@@ -1,0 +1,188 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>National Technical Symposium | Mining Engineering</title>
+  <meta name="description" content="National Technical Symposium organized by the Department of Mining Engineering. Events, workshops, paper presentations, and registrations." />
+  <style>
+    :root{
+      --primary:#1f2937; /* slate */
+      --accent:#f59e0b; /* amber */
+      --muted:#6b7280;
+      --bg:#0b1220;
+      --card:#111827;
+      --white:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial; color:var(--white); background:linear-gradient(180deg,#020617 0%, #020617 40%, #020617 100%)}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1200px;margin:auto;padding:24px}
+    header{position:sticky;top:0;z-index:10;background:rgba(2,6,23,.8);backdrop-filter:blur(8px);border-bottom:1px solid #111}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:42px;height:42px;border-radius:10px;background:radial-gradient(circle at 30% 30%,#fbbf24,#f59e0b 40%,#92400e 70%);display:grid;place-items:center;font-weight:800;color:#111}
+    .navlinks{display:flex;gap:18px;flex-wrap:wrap}
+    .navlinks a{opacity:.9}
+    .btn{padding:10px 16px;border-radius:12px;background:var(--accent);color:#111;font-weight:700}.hero{padding:72px 0;background:radial-gradient(1200px 500px at 10% -10%,#1f2937 0%,transparent 60%),radial-gradient(1200px 500px at 110% 10%,#111827 0%,transparent 60%)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:28px}
+.tag{display:inline-block;background:#111827;border:1px solid #1f2937;border-radius:999px;padding:6px 12px;color:#fbbf24;font-weight:700}
+h1{font-size:44px;line-height:1.05;margin:14px 0}
+p.lead{font-size:18px;color:#d1d5db}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+.stat{background:var(--card);border:1px solid #1f2937;border-radius:16px;padding:16px}
+.stat b{font-size:24px}
+
+section{padding:56px 0}
+.section-title{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:22px}
+.section-title h2{font-size:30px;margin:0}
+.muted{color:#9ca3af}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid #1f2937;border-radius:18px;padding:20px}
+.card h3{margin:8px 0}
+.badge{display:inline-block;padding:4px 10px;border-radius:999px;background:#020617;border:1px solid #1f2937;color:#fbbf24;font-size:12px}
+
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.step{background:linear-gradient(180deg,#0b1220,#020617);border:1px dashed #1f2937;border-radius:18px;padding:16px}
+
+.cta{background:linear-gradient(90deg,#f59e0b,#fbbf24);color:#111;border-radius:22px;padding:28px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center}
+
+footer{border-top:1px solid #111;background:#020617}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:18px}
+.small{font-size:14px;color:#9ca3af}
+
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr}
+  .grid{grid-template-columns:1fr 1fr}
+  .timeline{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+  h1{font-size:34px}
+  .grid{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr}
+  .timeline{grid-template-columns:1fr}
+  .cta{grid-template-columns:1fr}
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <div class="logo">ME</div>
+          <div>
+            <b>Dept. of Mining Engineering</b><br/>
+            <span class="small">National Technical Symposium</span>
+          </div>
+        </div>
+        <div class="navlinks">
+          <a href="#about">About</a>
+          <a href="#events">Events</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#register" class="btn">Register</a>
+        </div>
+      </nav>
+    </div>
+  </header>  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="tag">NATIONAL LEVEL</span>
+          <h1>MineTech 2026</h1>
+          <p class="lead">A premier national technical symposium bringing together students, researchers, and industry professionals in Mining Engineering.</p>
+          <div class="stats">
+            <div class="stat"><b>15+</b><div class="muted">Events & Workshops</div></div>
+            <div class="stat"><b>30+</b><div class="muted">Colleges Expected</div></div>
+            <div class="stat"><b>₹1L+</b><div class="muted">Prizes & Grants</div></div>
+          </div>
+        </div>
+        <div class="card">
+          <span class="badge">Highlights</span>
+          <h3>Why Attend?</h3>
+          <ul class="muted">
+            <li>Industry-led workshops</li>
+            <li>Paper & poster presentations</li>
+            <li>Mining software demos</li>
+            <li>Networking & placements</li>
+          </ul>
+          <a href="#register" class="btn" style="margin-top:12px;display:inline-block">Secure Your Seat</a>
+        </div>
+      </div>
+    </section><section id="about">
+  <div class="container">
+    <div class="section-title">
+      <h2>About the Symposium</h2>
+      <span class="muted">Innovation • Safety • Sustainability</span>
+    </div>
+    <div class="card">
+      <p class="muted">The National Technical Symposium organized by the Department of Mining Engineering focuses on modern mining practices, digital transformation, safety, environmental stewardship, and sustainable resource development. The event provides a platform for students to showcase innovation and for industry to engage with future engineers.</p>
+    </div>
+  </div>
+</section>
+
+<section id="events">
+  <div class="container">
+    <div class="section-title">
+      <h2>Events</h2>
+      <span class="muted">Technical • Non‑Technical • Workshops</span>
+    </div>
+    <div class="grid">
+      <div class="card"><span class="badge">Technical</span><h3>Paper Presentation</h3><p class="muted">Research and case studies in mining, safety, and sustainability.</p></div>
+      <div class="card"><span class="badge">Technical</span><h3>Poster Presentation</h3><p class="muted">Visual storytelling of innovative mining solutions.</p></div>
+      <div class="card"><span class="badge">Workshop</span><h3>Mining Software</h3><p class="muted">Hands‑on sessions on CAD, GIS, and mine planning tools.</p></div>
+      <div class="card"><span class="badge">Technical</span><h3>Quiz & Case Study</h3><p class="muted">Test your fundamentals and problem‑solving skills.</p></div>
+      <div class="card"><span class="badge">Non‑Tech</span><h3>Techno‑Management</h3><p class="muted">Leadership, operations, and project management.</p></div>
+      <div class="card"><span class="badge">Field</span><h3>Virtual Mine Tour</h3><p class="muted">Immersive look into modern mining operations.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="schedule">
+  <div class="container">
+    <div class="section-title">
+      <h2>Schedule</h2>
+      <span class="muted">Two‑Day Program</span>
+    </div>
+    <div class="timeline">
+      <div class="step"><b>Day 1</b><p class="muted">Inauguration • Keynote • Paper Sessions</p></div>
+      <div class="step"><b>Day 1</b><p class="muted">Workshops • Software Labs</p></div>
+      <div class="step"><b>Day 2</b><p class="muted">Poster • Quiz • Case Study</p></div>
+      <div class="step"><b>Day 2</b><p class="muted">Valedictory • Awards</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="register">
+  <div class="container">
+    <div class="cta">
+      <div>
+        <h2>Register Now</h2>
+        <p class="muted">Early bird discounts available. Limited seats.</p>
+      </div>
+      <a class="btn" href="#">Registration Form</a>
+    </div>
+  </div>
+</section>
+
+  </main>  <footer>
+    <div class="container footer-grid">
+      <div>
+        <b>Contact</b>
+        <p class="small">Department of Mining Engineering<br/>Email: mining.symposium@email.com<br/>Phone: +91‑XXXXXXXXXX</p>
+      </div>
+      <div>
+        <b>Venue</b>
+        <p class="small">Engineering College Campus<br/>Hyderabad, India</p>
+      </div>
+      <div>
+        <b>Follow</b>
+        <p class="small">Instagram • LinkedIn • X</p>
+      </div>
+    </div>
+    <div class="container small">© 2026 Dept. of Mining Engineering. All rights reserved.</div>
+  </footer>
+</body>
+</html>
